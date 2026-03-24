@@ -18,7 +18,8 @@ const Showcase = () => {
         }
       })
 
-      timeline.to('.mask img', {
+      timeline
+        .to('.mask img', {
         transform: 'scale(1.1)'
       })
         .to('.content', {
